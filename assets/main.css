@@ -1,0 +1,181 @@
+header
+{
+   padding:0;
+   margin:0;
+}
+
+  h1,
+  h2,
+  h3 {
+      text-transform: uppercase
+  }
+
+  body {
+  	text-transform: lowercase;
+  }
+  a,
+  body,
+  h1 a:hover {
+      color: #222427
+  }
+  @font-face {
+      font-family: Manifold;
+      src: url(assets/fonts/ManifoldCF-DemiBold.woff) format('woff');
+      font-weight: 500
+  }
+  @font-face {
+      font-family: Rubik;
+      src: url(assets/fonts/Rubik-Light.ttf) format('ttf');
+      font-weight: 300
+  }
+  @font-face {
+      font-family: Manifold;
+      src: url(assets/fonts/ManifoldCF-Bold.woff) format('woff');
+      font-weight: 600
+  }
+  @font-face {
+      font-family: Manifold;
+      src: url(assets/fonts/ManifoldCF-Regular.woff) format('woff');
+      font-weight: 400
+  }
+  @-webkit-keyframes fadeIn {
+      from {
+          opacity: 0
+      }
+      to {
+          opacity: 1
+      }
+  }
+  @-moz-keyframes fadeIn {
+      from {
+          opacity: 0
+      }
+      to {
+          opacity: 1
+      }
+  }
+  @keyframes fadeIn {
+      from {
+          opacity: 0
+      }
+      to {
+          opacity: 1
+      }
+  }
+  .fade-in.one {
+      webkit-animation-delay: .1s;
+      moz-animation-delay: .1s;
+      animation-delay: .1s
+  }
+  .fade-in.two {
+      -webkit-animation-delay: .2s;
+      -moz-animation-delay: .2s;
+      animation-delay: .2s
+  }
+  .fade-in.three {
+      -webkit-animation-delay: .3s;
+      -moz-animation-delay: .3s;
+      animation-delay: .3s
+  }
+  .fade-in {
+      opacity: 0;
+      -webkit-animation: fadeIn ease-in 1;
+      -moz-animation: fadeIn ease-in 1;
+      animation: fadeIn ease-in 1;
+      -webkit-animation-fill-mode: forwards;
+      -moz-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-duration: 0 .5s;
+      -moz-animation-duration: .5s;
+      animation-duration: .5s
+  }
+  body {
+      text-align: center;
+      font-size: 20px;
+      margin: 50px 20px;
+      font-family: Manifold;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased!important
+  }
+  a {
+      text-decoration: none
+  }
+  p {
+      text-align: left;
+      line-height: 28px;
+      font-family: Rubik, sans-serif;
+      font-weight: 300
+  }
+  ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none
+  }
+  li {
+      display: inline;
+      padding: 10px
+  }
+  li:last-of-type {
+      padding-right: 0;
+  }
+  li a {
+      transition: opacity .5s
+  }
+  li a:hover {
+      opacity: .5;
+      transition: opacity .2s
+  }
+  section.manifesto {
+      margin: auto;
+      max-width: 280px
+  }
+  h1 {
+      font-size: 20px;
+      letter-spacing: 1.75px
+  }
+  h2 {
+      font-size: 28px;
+      margin: 120px auto;
+      max-width: 500px;
+      letter-spacing: 3px;
+      font-weight: 500
+  }
+  .manifesto.title,
+  h3 {
+      letter-spacing: 2.25px;
+      text-align: left
+  }
+  h2 a {
+      color: #2385BB;
+      transition: all .75s
+  }
+  h2 a:hover {
+      transition: all .4s
+  }
+  h3 {
+      font-size: 16px;
+      margin-bottom: 30px
+  }
+  .description,
+  .manifesto.title {
+      text-transform: uppercase;
+      font-size: 12px;
+      opacity: .5
+  }
+  .item {
+      margin-bottom: 75px
+  }
+  .manifesto.title {
+      margin-bottom: 60px;
+      border-bottom: 1px solid #bfbfbf;
+      padding-bottom: 20px
+  }
+  .description {
+      letter-spacing: 1.5px
+  }
+  div#header {
+      height: auto;
+      width: auto;
+      max-width: 100%;
+      max-height: 100%;
+  }
