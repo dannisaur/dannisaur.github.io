@@ -78,8 +78,8 @@ header p {
   opacity: .9;
   position: relative;
   top: 360px;
-  width: 500px;
-  background-color:rgba(99,99,99,0.7);
+  width: auto;
+  background-color:rgba(99,99,99,0.75);
 }
 
 section h1 {
