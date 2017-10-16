@@ -1,35 +1,184 @@
 <!DOCTYPE html>
-<html>
-<title>Danni Tang</title>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Kreon">
-	<link rel="stylesheet" href="assets/main.css" />
+	<meta charset="utf-8" />
+	<title>Danni's Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open Sans:300,700' rel='stylesheet' type='text/css'>
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="./assets/main.css" type="text/css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	
+	<!-- just in case viewer is using Internet Explorer -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
 </head>
 
-
 <body>
-
-	<div id="snow">
-	</div>
-
+	
+	<!-- Header-->
 	<header>
-		<img id="banner" src="assets/images/winterbanner.png"/>
-	 </header>
-
-
-<div id="imagelinks">
-<ul>
-	<li><a href="https://github.com/tangdnn" class="github"><img src="assets/images/githubbutton.png" width="50" height="50" ></a></li>
-	<li><a href="assets/files/DTangMay2017.pdf" class="resume"><img src="assets/images/resumebutton.png" width="50" height="50"></a></li>
-	<li><a href="http://instagram.com/universes_next_door" class="instagram"><img src="assets/images/instagrambutton.png" width="50" height="50"></a></li>
-	<li><a href="https://universesnextdoor.wordpress.com/" class="blog"><img src="assets/images/blogbutton.png" width="50" height="50" ></a></li>
-	<li><a href="mailto:tangdnn@gmail.com" class="email"><img src="assets/images/emailbutton.png" width="50" height="50"></a></li>
-</ul>
-</div>
-
-<h1>this page is a work-in-progress</h1>
-
+		<h1>Danni Tang</h1>
+		<p>Software Developer & Aspiring Writer</p>
+	</header>
+	
+	<div class="container">
+		
+		<!-- Introduction-->
+		<section class="center">
+			<h1>Welcome!</h1>
+			<p>
+				I'm an avid learner of all things science and technology with a background in biomedical engineering, electrical engineering, and computer programming. Currently, I am a full-stack software developer at Revature and Capital One exploring data streaming and building RESTful Web APIs.
+			</p>
+		</section>
+		
+		<hr>
+		
+		<!-- Gallery Block
+		<section class="gallery">
+			<h1 class="center">Gallery</h1>
+			<div class="row">
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+				<a href="#"><img src="img/re.png" class="grid-2"></a>
+			</div>
+		</section>
+		
+		<hr>-->
+		
+		<!-- Testimonials	
+		<section class="testimonial">
+			<div class="row">
+				<div class="grid-2">
+					<img src="img/re.png">
+					<h2>Their Name</h2>
+					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
+				</div>
+				
+				<div class="grid-2">
+					<img src="img/re.png">
+					<h2>Their Name</h2>
+					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
+				</div>
+		
+				<div class="grid-2">
+					<img src="img/re.png">
+					<h2>Their Name</h2>
+					<p>You can use this as a place to put recommendations, accolades and testimonials</p>
+				</div>
+			</div>
+		</section>
+	</div>--> <!-- End container-->
+	
+	<!-- Spotlight 
+	<section class="spotlight">
+		<div class="container">
+			<div class="row">
+				<div class="grid-3">
+					<img src="img/spotlight.jpg">
+				</div>
+				<div class="grid-3">
+					<h1>Project Spotlight</h1>
+					<p>Give a brief description of what this project is and what role you played. It can also be helpful to include a link</p>
+					<a href="#">View Project</a>
+				</div>
+			</div>
+		</div>
+	</section>-->
+	
+	
+	<!-- New container-->
+	<div class="container">
+	
+		<section class="education">	
+			<h2>M.S. in Electrical Engineering, New York University</h2>
+			<h2>B.S. in Biomedical Engineering, Johns Hopkins University</h2>
+		</section>
+		
+		<hr>
+			
+		<!--Experience Tables-->
+		<section class="experience">
+			<div class="row">
+				<div class="grid-2">
+					<h2>Capital One</h2>
+					<p>May 2017 - Present</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Building RESTful APIs and Microservices to stream real-time data using Apache Kafka.</li>
+						<li>Dockerizing and deploying APIs and Microservices to the cloud in AWS.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>Revature</h2>
+					<p>Feb. 2017 - Present</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Developed multiple full-stack Java web applications using Spring and MVC.</li>
+						<li>Deployed applications within a DevOps pipepline to ensure Continuous Integration.</li>
+						<li>Participated in team-based software development using Agile and Scrum.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid-2">
+					<h2>Codecademy</h2>
+					<p>Sep. 2017 - Present</p>
+				</div>
+				<div class="grid-4">
+					<ul>
+						<li>Mentoring learners by debugging code, explaining concepts, and teaching best practices.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		<hr>
+		
+		<section>
+			<!--List of skills-->
+			<div class="row">
+				<div class="grid-2">
+					<h1>Skills</h1>
+					<ul>
+						<li>Java</li>
+						<li>Python</li>
+						<li>AngularJS</li>
+						<li>Git</li>
+						<li>Scala</li>
+					</ul>
+				</div>
+				
+				<div class="grid-4">
+					<h1>Contact Me</h1>
+					<p>
+						You can find me on <a href="https://github.com/tangdnn">GitHub</a>, <a href="">LinkedIn</a>, or by <a href="mailto:tangdnn@gmail.com">email</a>.
+					</p>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		<!--Footer-->
+		<footer class="center">
+			<hr>
+			<span>&copy; Danni Tang 2017</span>
+			<br>
+			<span>Template by <a href="http://philipcdavis.com/">Phillip Davis</a></span>
+		</footer>
+		
+	</div><!-- End Container -->
+	
 </body>
 </html>
