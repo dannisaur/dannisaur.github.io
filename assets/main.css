@@ -220,7 +220,7 @@ footer hr {
   margin-bottom: 0;
 }
 
-.experience h2, .experience p {
+.experience h2, .experience h4, .experience p {
   text-align: center;
 }
 
@@ -229,7 +229,7 @@ footer hr {
 }
 
 @media screen and (min-width: 40em) {
-  .experience h2, .experience p {
+  .experience h2, .experience h4, .experience p {
     text-align: left;
   }
 }
